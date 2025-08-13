@@ -1,0 +1,18 @@
+{
+  "name": "hr-platform-skeleton",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "echo 'build step'",
+    "start": "node src/index.js",
+    "migrate": "echo 'migrate step'",
+    "seed": "node scripts/seed.js",
+    "test": "node -e \"console.log('no tests yet')\""
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
